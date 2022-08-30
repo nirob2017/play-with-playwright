@@ -2,13 +2,13 @@
   "name": "play-with-playwright",
   "version": "1.0.0",
   "description": "",
-  "type": "commonjs",
   "main": "index.js",
   "scripts": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.25.1"
+    "@playwright/test": "^1.25.1",
+    "@types/node": "^18.7.14"
   }
 }
