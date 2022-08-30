@@ -8,7 +8,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.25.1",
-    "@types/node": "^18.7.14"
+    "@playwright/test": "^1.26.0-alpha-aug-30-2022",
+    "@types/node": "^18.7.14",
+    "tsconfig-paths": "^4.1.0",
+    "typescript": "^4.8.2"
   }
 }
