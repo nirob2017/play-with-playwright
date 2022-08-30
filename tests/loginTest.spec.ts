@@ -1,5 +1,5 @@
 import { test, expect, request } from "@playwright/test";
-import { Inventory } from "../pages/inventoryPage";
+import { Inventory } from "../pages/InventoryPage";
 import { LoginPage } from "../pages/LoginPage";
 import { testData } from "../utils/testData";
 
