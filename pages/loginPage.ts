@@ -1,5 +1,5 @@
 import { Page, Locator, expect } from "@playwright/test";
-import { Actions } from "../utils/actions";
+import { Actions } from "../utils/Actions";
 import { testData } from "../utils/testData";
 
 export class LoginPage {

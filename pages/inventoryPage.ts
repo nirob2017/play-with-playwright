@@ -1,5 +1,5 @@
 import { expect, Locator, Page } from "@playwright/test";
-import { Assertions } from "../utils/assertions";
+import { Assertions } from "../utils/Assertions";
 
 export class Inventory {
   readonly inventoryListClass: Locator;
