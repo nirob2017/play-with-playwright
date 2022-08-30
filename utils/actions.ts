@@ -1,4 +1,4 @@
-import { expect, Locator, Page, selectors } from "@playwright/test";
+import { Locator, Page } from "@playwright/test";
 
 export class Actions {
   locator: Locator;
