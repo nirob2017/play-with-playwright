@@ -3,14 +3,24 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "allure:generate": "npx allure generate ./allure-results --clean",
+    "allure:open": "npx allure open ./allure-report",
+    "allure:serve": "npx allure serve",
+    "test": "npx playwright test || :",
+    "posttest": "npm run allure:generate"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.26.0-alpha-aug-30-2022",
     "@types/node": "^18.7.14",
+    "allure-playwright": "^2.0.0-beta.19",
     "tsconfig-paths": "^4.1.0",
     "typescript": "^4.8.2"
+  },
+  "dependencies": {
+    "playwright-tesults-reporter": "^1.0.0"
   }
 }
