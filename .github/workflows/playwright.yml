@@ -10,10 +10,9 @@ jobs:
       with:
         node-version: '16.x'
         cache: 'npm'
-    - name: Install dependencies, Playwright Browsers, Run Playwright tests
-      run: npm ci
-      run: npx playwright install
-      run: npm test
+    - run: npm ci
+    - run: npx playwright install
+    - run: npm test
     - uses: actions/upload-artifact@master
       if: always()
       with:
